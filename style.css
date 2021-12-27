@@ -1,0 +1,37 @@
+input[type =text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: thistle;
+}
+.container {
+    position: relative
+}
+
+.container .top-text {
+position: absolute;
+color: white;
+top: 5px;
+left: 20%;
+text-shadow: 2px 2px black;
+font-family: fantasy;
+font-size: 20px;
+
+}
+
+.container .bottom-text {
+position: absolute;
+color: white;
+bottom: 5px;
+left: 20%;
+text-shadow: 2px 2px black;
+font-family: fantasy;
+font-size:  20px;
+}
+/* Add a div around your img and text and give it a position: relative.
+To position text divs, give them each a position: absolute and set their positioning by using the properties of top, right, bottom and left.
+If you need help on positioning, check out our free resources. */
